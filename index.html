@@ -1,126 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-             
-    
-    <meta charset="utf-8"/>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="author" content="Kodinger">
+		<meta name="keyword" content="Kodinger, template, html5, css3, bootstrap4">
+		<meta name="description" content="HTML5 and CSS3 Template Based on Bootstrap 4">
+		<title>I'm Stisla</title>
+		<link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="sweetalert/dist/sweetalert.css">
+		<link rel="stylesheet" href="css/stisla.css">
+	</head>
 
-<title>mysite</title>
+	<body>
+		<nav class="navbar navbar-expand-lg main-navbar">
+			<div class="container-fluid">			
+			  <a class="navbar-brand" href="#">
+			  	<img src="img/logo-light.png" alt="Logo">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon">
+			    	<i class="ion-navicon"></i>
+			    </span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				  <div class="mr-auto"></div>
+			    <ul class="navbar-nav">
+			      <li class="nav-item active">
+			        <a class="nav-link smooth-link" href="#hero">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link smooth-link" href="#features">Stisla's Features</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link smooth-link" href="#blog">Blog</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link smooth-link" href="#project">Project</a>
+			      </li>
+			    </ul>
+			    <form class="form-inline">
+				    <a href="#contact" class="btn smooth-link align-middle btn-primary">Need Help?</a>
+			    </form>
+			  </div>
+		  </div>
+		</nav>
+		<section class="hero bg-overlay" id="hero" data-bg="img/hero.jpeg">
+			<div class="text py-5">
+				<p class="lead">Fully responsive HTML5 &amp; CSS3 template</p>
+				<h1>I'm <span class="bold">stisla</span>, based on <span class="bold">Bootstrap 4</span>.</h1>
+				<div class="cta">
+					<a href="#features" class="btn btn-primary smooth-link">Get Started</a>
+					<div class="link">						
+						<a href="#">Under the MIT License</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<meta name="generator" content="Wix.com Website Builder">
+		<section class="padding" id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-4 col-sm-12">
+						<div class="list-item">
+							<div class="icon">
+								<i class="ion-code"></i>
+							</div>
+							<div class="desc">
+								<h2>Based on Bootstrap 4</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore.
+								</p>
+								<a href="#" class="more">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 col-sm-12">
+						<div class="list-item">
+							<div class="icon">
+								<i class="ion-social-github"></i>
+							</div>
+							<div class="desc">
+								<h2>Open Source</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore.
+								</p>
+								<a href="#" class="more">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 col-sm-12">
+						<div class="list-item no-spacing">
+							<div class="icon">
+								<i class="ion-paintbrush"></i>
+							</div>
+							<div class="desc">
+								<h2>Customizable</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore.
+								</p>
+								<a href="#" class="more">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<meta name="fb_admins_meta_tag" content=""/>
-<link rel="shortcut icon" href="https://www.wix.com/favicon.ico" type="image/x-icon"/>
-<link rel="apple-touch-icon" href="https://www.wix.com/favicon.ico" type="image/x-icon"/>
-    <script type="text/javascript">
-    var santaBase = 'https://static.parastorage.com/services/santa/1.3013.32';
-    var clientSideRender = true;
-</script>
+		<section class="padding bg-grey" id="blog">
+			<div class="container">
+				<h2 class="section-title">We Blog Sometimes</h2>
+				<p class="section-lead text-muted">We wrote some articles about whatever was on our heads and most people liked it.</p>
+				<div class="section-body">
+					<div class="row col-spacing">
+						<div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img01.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10, 2017</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Duis aute irure dolor in reprehenderit in voluptate</a></h4>
+							    <p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent consequat, ipsum molestie pellentesque venenatis.</p>
+							    <div class="text-right">						    	
+								    <a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+					  </div>
+					  <div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img04.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10, 2017</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Velit esse cillum dolore eu blos siur dropsida wedor</a></h4>
+							    <p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent consequat, ipsum molestie pellentesque venenatis.</p>
+							    <div class="text-right">						    	
+								    <a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img02.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10, 2017</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Excepteur sint as occaecat dros cupidatat non proident los</a></h4>
+							    <p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent consequat, ipsum molestie pellentesque venenatis.</p>
+							    <div class="text-right">						    	
+								    <a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+					  </div>
+					  <div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img05.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10, 2017</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Sunt in ado culpa qui officia deserunt mollit anim id</a></h4>
+							    <p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent consequat, ipsum molestie pellentesque venenatis.</p>
+							    <div class="text-right">						    	
+								    <a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img03.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10, 2017</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Incididunt ut labore et labore dolore magna aliqua lorem</a></h4>
+							    <p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent consequat, ipsum molestie pellentesque venenatis.</p>
+							    <div class="text-right">						    	
+								    <a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+					  </div>
+					  <div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img06.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10, 2017</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Ut enim ad minim veniam quis nostrud enim ad kruv</a></h4>
+							    <p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent consequat, ipsum molestie pellentesque venenatis.</p>
+							    <div class="text-right">						    	
+								    <a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+						</div>
+					</div>
+				</div>
 
+				<div class="row align-items-center mt-5">
+					<div class="col-12 col-md-6">
+						<h2>Don't miss our article</h2>
+						<p class="text-muted">Just enter your email then we will send an email about the latest articles</p>
+					</div>
+					<div class="col-12 col-md-6">
+						<form class="subscribe" action="#">
+							<input type="email" name="email" class="form-control" placeholder="Your email">
+							<button class="btn btn-primary">Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
 
+		<section class="bg-overlay padding" id="project" data-bg="img/projects.jpeg">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-6">
+						<figure class="projects-picture">
+							<img src="img/youzhang.png" alt="Youzhang">
+						</figure>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="projects-details">
+							<div class="projects-badge">
+								Featured
+							</div>
+							<h2 class="projects-title">Youzhang - Ionic 3 Catalogue Template</h2>
+							<p class="projects-description">
+								Youzhang is an iconic template catalog 3. This ionic template uses version 3 and uses the latest feature of ionic v3 that is Lazy Loading. With Ionic version 3 and Lazy Loading you don’t have to define all the components in the app.module.ts file and your hybrid app will get more native and it will make the app performance better.
+							</p>
+							<div class="projects-cta">
+								<a href="https://codecanyon.net/item/youzhang-ionic-3-catalogue-template/20466954?ref=frameborder" class="btn btn-primary" target="_blank">
+									Buy Now
+								</a>
+								<a href="https://codecanyon.net/user/frameborder?ref=frameborder" class="btn btn-link" target="_blank">
+									More Products
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
+		<section class="padding bg-grey" id="contact">
+			<div class="container">
+				<h2 class="section-title text-center">Contact Us</h2>
+				<p class="section-lead text-center text-muted">Send us your inquiry, we will help you and reply as soon as possible</p>
+				<div class="section-body">				
+					<div class="row col-spacing">
+						<div class="col-12 col-md-5">
+							<p class="contact-text">You can send us something like a question or project, we are open 09:00 to 17:00.</p>
+							<ul class="contact-icon">
+								<li><i class="ion ion-ios-telephone"></i> <div>+6212345123</div></li>
+								<li><i class="ion ion-ios-email"></i> <div>hi@kodinger.com</div></li>
+							</ul>
+							<iframe src="https://snazzymaps.com/embed/10159" style="border:none;" class="maps"></iframe>
+						</div>
+						<div class="col-12 col-md-7">
+							<form class="contact row" id="contact-form">
+								<div class="form-group col-6">
+									<input type="text" class="form-control" placeholder="Name" name="name" required="">
+								</div>
+								<div class="form-group col-6">
+									<input type="email" class="form-control" placeholder="Email" name="email" required="">
+								</div>
+								<div class="form-group col-12">
+									<input type="text" class="form-control" placeholder="Subject" name="subject" required="">
+								</div>
+								<div class="form-group col-12">
+									<textarea class="form-control" placeholder="Message" name="message" required=""></textarea>
+								</div>
+								<div class="form-group col-12 mt-2">
+									<button class="btn btn-primary">
+										Send Message
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<script defer src="https://static.parastorage.com/services/third-party/requirejs/2.1.15/require.min.js"></script>
+		<section class="callout">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-8 text">
+						<h3>Start your project with this awesome template</h3>
+					</div>
+					<div class="col-12 col-md-4 cta">
+						<a href="#" class="btn btn-outline-primary">
+							Download Now
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<script defer src="https://static.parastorage.com/polyfill/v2/polyfill.min.js?features=es2015,es2016,es2017,fetch&flags=always,gated&unknown=polyfill&rum=0"></script>
+		<footer>
+			<div class="container">
+				<figure>
+					<img src="img/logo-light.png" alt="Logo">
+				</figure>
+				<p>
+					Copyright &copy; 2017 Your Company
+				</p>
+				<p>
+					Made with <i class="ion-heart"></i> By Kodinger
+				</p>
+			</div>
+		</footer>
 
-
-
-<script defer src="https://static.parastorage.com/services/santa/1.3013.32/app/main-r.min.js"></script>
-
-<link rel="preload" href="https://static.parastorage.com/unpkg/lodash@4.17.4/lodash.min.js" as="script">
-<link rel="preload" href="https://static.parastorage.com/unpkg/zepto@1.2.0/dist/zepto.min.js" as="script">
-<link rel="preload" href="https://static.parastorage.com/unpkg/react-dom@16.2.0/umd/react-dom.production.min.js" as="script">
-
-<link rel="dns-prefetch" href="https://de409517-6ea6-4520-9ce0-9611ee49e40e.static.pub.wix-code.com/">
-<link rel="prefetch" href="/_partials/santa/1.3013.32/node_modules/santa-wix-code/dist/wixcode-worker.js">
-
-<link rel="preconnect" href="https://static.wixstatic.com/" crossorigin>
-<link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
-
-    <meta http-equiv="X-Wix-Meta-Site-Id" content="271a838f-8a8e-4f16-8c1b-5689ffc85956"/>
-<meta http-equiv="X-Wix-Application-Instance-Id" content="62d2c2bf-cfe6-4909-9a29-35669fced412"/>
-<meta http-equiv="X-Wix-Published-Version" content="1"/>
-
-<meta http-equiv="etag" content="95c30defd391ff67f2a0096e5a931727"/>
-<meta property="og:title" content="mysite"/>
-<meta property="og:type" content="article"/>
-<meta property="og:url" content="https://amilp0.wixsite.com/mysite"/>
-<meta property="og:site_name" content="mysite"/>
-<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
-
-<meta id="wixMobileViewport" name="viewport" content="width=980, user-scalable=yes"/>
-
-
-
-        
-
-    <script>
-    // BEAT MESSAGE
-    try {
-        window.wixBiSession = {
-                        initialTimestamp : Date.now(),
-            viewerSessionId: 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c)
-                    { var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8); return v.toString(16); }
-            )
-        };
-        (new Image()).src = 'https://frog.wix.com/bt?src=29&evid=3&pn=1&et=1&v=1.3013.32&msid=271a838f-8a8e-4f16-8c1b-5689ffc85956&vsi=' + wixBiSession.viewerSessionId +
-                '&url=' + encodeURIComponent(location.href.replace(/^http(s)?:\/\/(www\.)?/, '')) +
-                '&isp=0&st=2&ts=0&iss=0&c=' + wixBiSession.initialTimestamp + '';
-    } catch (e){}
-    // BEAT MESSAGE END
-</script>
-
-    
-
-    <!-- META DATA -->
-<script type="text/javascript">
-
-    var serviceTopology = {"cacheKillerVersion":"1","staticServerUrl":"https://static.parastorage.com/","usersScriptsRoot":"https://static.parastorage.com/services/wix-users/2.660.0","biServerUrl":"https://frog.wix.com/","userServerUrl":"https://users.wix.com/","billingServerUrl":"https://premium.wix.com/","mediaRootUrl":"https://static.wixstatic.com/","logServerUrl":"https://frog.wix.com/plebs","monitoringServerUrl":"https://TODO/","usersClientApiUrl":"https://users.wix.com/wix-users","publicStaticBaseUri":"https://static.parastorage.com/services/wix-public/1.235.0","basePublicUrl":"https://www.wix.com/","postLoginUrl":"https://www.wix.com/my-account","postSignUpUrl":"https://www.wix.com/new/account","baseDomain":"wix.com","staticMediaUrl":"https://static.wixstatic.com/media","staticAudioUrl":"https://music.wixstatic.com/mp3","staticDocsUrl":"https://docs.wixstatic.com/ugd","emailServer":"https://assets.wix.com/common-services/notification/invoke","blobUrl":"https://static.parastorage.com/wix_blob","htmlEditorUrl":"http://editor.wix.com/html","siteMembersUrl":"https://users.wix.com/wix-sm","scriptsLocationMap":{"dbsm-viewer-app":"https://static.parastorage.com/services/dbsm-viewer-app/1.223.0","wix-music-embed":"https://static.parastorage.com/services/wix-music-embed/1.26.0","santa-resources":"https://static.parastorage.com/services/santa-resources/1.2.0","wixapps":"https://static.parastorage.com/services/wixapps/2.486.0","ecommerce":"https://static.parastorage.com/services/ecommerce/1.203.0","dbsm-editor-app":"https://static.parastorage.com/services/dbsm-editor-app/1.411.0","langs":"https://static.parastorage.com/services/langs/2.577.0","semi-native-sdk":"https://static.parastorage.com/services/semi-native-sdk/1.8.0","automation":"https://static.parastorage.com/services/automation/1.23.0","web":"https://static.parastorage.com/services/web/2.1229.80","sitemembers":"https://static.parastorage.com/services/sm-js-sdk/1.31.0","js-wixcode-sdk":"https://static.parastorage.com/services/js-wixcode-sdk/1.216.0","tpa":"https://static.parastorage.com/services/tpa/2.1065.0","wix-form-builder":"https://static.parastorage.com/services/wix-form-builder/1.231.0","wix-code-platform":"https://static.parastorage.com/services/wix-code-platform/1.31.0","santa":"https://static.parastorage.com/services/santa/1.3013.32","skins":"https://static.parastorage.com/services/skins/2.1229.80","core":"https://static.parastorage.com/services/core/2.1229.80","santa-langs":"https://static.parastorage.com/services/santa-langs/1.1876.0","santa-members-viewer-app":"https://static.parastorage.com/services/santa-members-viewer-app/1.49.0","ck-editor":"https://static.parastorage.com/services/ck-editor/1.87.3","bootstrap":"https://static.parastorage.com/services/bootstrap/2.1229.80","js-platform-apps-configuration":"https://static.parastorage.com/services/js-platform-apps-configuration/1.22.0","santa-members-editor-app":"https://static.parastorage.com/services/santa-members-editor-app/1.127.0"},"developerMode":false,"productionMode":true,"staticServerFallbackUrl":"https://sslstatic.wix.com/","staticVideoUrl":"https://video.wixstatic.com/","cloudStorageUrl":"https://static.wixstatic.com/","usersDomainUrl":"https://users.wix.com/wix-users","scriptsDomainUrl":"https://static.parastorage.com/","userFilesUrl":"https://static.parastorage.com/","staticHTMLComponentUrl":"https://amilp0-wixsite-com.filesusr.com/","secured":true,"ecommerceCheckoutUrl":"https://www.safer-checkout.com/","premiumServerUrl":"https://premium.wix.com/","digitalGoodsServerUrl":"https://dgs.wixapps.net/","wixCloudBaseDomain":"wix-code.com","mailServiceSuffix":"/_api/common-services/notification/invoke","staticVideoHeadRequestUrl":"https://storage.googleapis.com/video.wixstatic.com","protectedPageResolverUrl":"https://site-pages.wix.com/_api/wix-public-html-info-webapp/resolve_protected_page_urls","mediaUploadServerUrl":"https://files.wix.com/","wixCodePreconnectUrl":"https://de409517-6ea6-4520-9ce0-9611ee49e40e.static.pub.wix-code.com/","staticServerWixDomainUrl":"https://www.wix.com/_partials","adaptiveVideoDomain":"https://files.wix.com/","publicStaticsUrl":"https://static.parastorage.com/services/wix-public/1.235.0"};
-    var santaModels = true;
-    var rendererModel = {"metaSiteId":"271a838f-8a8e-4f16-8c1b-5689ffc85956","siteInfo":{"documentType":"UGC","applicationType":"HtmlWeb","siteId":"62d2c2bf-cfe6-4909-9a29-35669fced412","siteTitleSEO":"mysite"},"clientSpecMap":{"2":{"type":"appbuilder","applicationId":2,"appDefinitionId":"3d590cbc-4907-4cc4-b0b1-ddf2c5edf297","instanceId":"bd98765a-6fb0-4857-85a8-3dc14ade8bb3","state":"Initialized"},"1174":{"type":"public","applicationId":1174,"appDefinitionId":"1375baa8-8eca-5659-ce9d-455b2009250d","appDefinitionName":"Wix Get Subscribers","instance":"DVfJs1ySDCx50oQ98O8tNQiMFR-2-HH-clzlwm4CM_g.eyJpbnN0YW5jZUlkIjoiN2M1NDQxZDAtZGNmMi00ZDQ5LWFlM2ItMjdlNGU3MGY1NjUxIiwiYXBwRGVmSWQiOiIxMzc1YmFhOC04ZWNhLTU2NTktY2U5ZC00NTViMjAwOTI1MGQiLCJzaWduRGF0ZSI6IjIwMTgtMDQtMDdUMTc6MjY6MTguNjYwWiIsInVpZCI6bnVsbCwiaXBBbmRQb3J0IjoiMTAzLjU4Ljc2LjE4Ny8zODgyOSIsInZlbmRvclByb2R1Y3RJZCI6bnVsbCwiZGVtb01vZGUiOmZhbHNlLCJvcmlnaW5JbnN0YW5jZUlkIjoiMDQyNjM5MjYtNDdmZS00MDEwLWIxOTEtY2Y3ZWQzYzQzZDc4IiwiYWlkIjoiOTlkMzVjNWEtYTgzNS00MjVkLWE2Y2QtMGI4NTA0ZmE2MTk4IiwiYmlUb2tlbiI6IjViNGVjMjVmLTU2N2MtMDI1Zi0yMjIwLTcxNmQxOGM3MGYwNyIsInNpdGVPd25lcklkIjoiY2ExODkyODItYWFkNi00NGVhLWFlNWYtMGFkZGU3MjM4NTVmIn0","sectionPublished":true,"sectionMobilePublished":false,"sectionSeoEnabled":true,"widgets":{"1375babd-6f2b-87ed-ff19-5778602c8b86":{"widgetUrl":"https:\/\/gs.wixapps.net\/statics\/index","widgetId":"1375babd-6f2b-87ed-ff19-5778602c8b86","refreshOnWidthChange":true,"mobileUrl":"https:\/\/gs.wixapps.net\/statics\/index","published":true,"mobilePublished":true,"seoEnabled":true,"preFetch":false,"shouldBeStretchedByDefault":false,"shouldBeStretchedByDefaultMobile":false,"componentFields":{},"tpaWidgetId":"wix_shoutout_widget"}},"appRequirements":{"requireSiteMembers":false},"isWixTPA":true,"installedAtDashboard":false,"permissions":{"revoked":false},"appFields":{}},"13":{"type":"sitemembers","applicationId":13,"collectionType":"Open","collectionFormFace":"Register","collectionExposure":"Public","smcollectionId":"696a4a65-52e8-403b-9db4-512e21cf1b6f"},"1875":{"type":"siteextension","applicationId":1875,"appDefinitionId":"675bbcef-18d8-41f5-800e-131ec9e08762","instance":"af3d9796be2e9b07c923badab5d260d40c2821a5.eyJpbnN0YW5jZUlkIjoiZGU0MDk1MTctNmVhNi00NTIwLTljZTAtOTYxMWVlNDllNDBlIiwiaHRtbFNpdGVJZCI6IjYyZDJjMmJmLWNmZTYtNDkwOS05YTI5LTM1NjY5ZmNlZDQxMiIsInVpZCI6bnVsbCwicGVybWlzc2lvbnMiOm51bGwsImlzVGVtcGxhdGUiOmZhbHNlLCJzaWduRGF0ZSI6MTUyMzEyMTk3ODY2MSwiYWlkIjoiOTlkMzVjNWEtYTgzNS00MjVkLWE2Y2QtMGI4NTA0ZmE2MTk4IiwiYXBwRGVmSWQiOiJDbG91ZFNpdGVFeHRlbnNpb24ifQ==","instanceId":"de409517-6ea6-4520-9ce0-9611ee49e40e"}},"premiumFeatures":[],"geo":"IND","languageCode":"en","locale":"en-in","previewMode":false,"userId":"ca189282-aad6-44ea-ae5f-0adde723855f","siteMetaData":{"preloader":{"uri":"","enabled":false},"adaptiveMobileOn":true,"quickActions":{"socialLinks":[],"colorScheme":"dark","configuration":{"quickActionsMenuEnabled":false,"navigationMenuEnabled":true,"phoneEnabled":false,"emailEnabled":false,"addressEnabled":false,"socialLinksEnabled":false}},"contactInfo":{"companyName":"","phone":"","fax":"","email":"","address":""}},"runningExperiments":{"sv_fullstory":"new","appMarketCache":"new","sv_tpaAddFullLocale":"new","renderAboveTheFold":"new","sv_newFonts2017":"new","selectiveWixapps":"new","timedBeat":"new","sv_ampLinkTag":"new","sv_twitterMetaTags":"new","sv_mobileBgFixed":"new","gradualReorderOnSave":"new","ajaxForBI":"new","sv_splitRouterUrls":"new","selectiveDialogs":"new","unescapeHeadTags":"old","checkRenderTime":"new","unloadBI":"new","sv_fixedMobileHeader":"new","sv_oldBlogRemoveOnSave":"new","sv_tpaReloadUnresponsiveIframe":"new","sv_blogSocialCounters":"new","sv_batchedImageLoader":"new","se_proGalleryBGDataFixer":"new","sv_qabUnhide":"new","sv_inlineExternalStyles":"new","sv_selectiveWixAds":"new","importScriptsOpt":"new","sv_mobileBG":"new","sv_blogAuthorAsALink":"new","sv_mobileSemantics":"new","sv_persistentMobilePresets":"new","wixCodeNoIframe":"new","selectiveDownload":"new","renderProgressive":"new","sv_tpaAddChatApp":"new","sv_initialValidationAfterAutoSaveApply":"new","prefetchComps":"new","sv_permissionInfoUpdateOnFirstSave":"new","wixCodePublicDispatcherSendFreeSiteName":"new","sv_fullPartialSave":"new","sv_horizontalContactFormSkin":"new","platformFetchScripts":"new","displayWixAdsNewVersion":"old","sv_contactFormEmailSecurityFix":"new","sv_browserLangFix":"new","sv_contactFormFinalMigration":"new","sv_useMobileTightLayout":"new","vsiCoin":"new","xsrfHeaderOnPostRequests":"new","sv_mobileSpachtelPattern":"new","sv_unpackTextMeasureByMinHeight":"new","sv_bookingInstallScript":"new","sv_requireSplitError":"new","sv_tpaFilterSubSections":"new"},"urlFormatModel":{"format":"slash","forbiddenPageUriSEOs":["app","apps","_api","robots.txt","sitemap.xml","feed.xml","sites"],"pageIdToResolvedUriSEO":{}},"passwordProtectedPages":[],"useSandboxInHTMLComp":false,"wixCodeModel":{"appData":{"codeAppId":"92803931-7d3b-4745-bb9c-f3dc9e9e5122"},"signedAppRenderInfo":"24ebc11e38bea4e0cf411272c2e03d48c11b52e5.eyJncmlkQXBwSWQiOiI5MjgwMzkzMS03ZDNiLTQ3NDUtYmI5Yy1mM2RjOWU5ZTUxMjIiLCJodG1sU2l0ZUlkIjoiNjJkMmMyYmYtY2ZlNi00OTA5LTlhMjktMzU2NjlmY2VkNDEyIiwiZGVtb0lkIjpudWxsLCJzaWduRGF0ZSI6MTUyMzEyMTk3ODY2MX0="},"siteMediaToken":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcHA6MzQ2NjQ5MDcwMDI5NzIwNiIsInN1YiI6InVzZXI6Y2ExODkyODItYWFkNi00NGVhLWFlNWYtMGFkZGU3MjM4NTVmIiwiYXVkIjoidXJuOnNlcnZpY2U6ZmlsZS51cGxvYWQiLCJleHAiOjE1MjM3MjY3NzgsImlhdCI6MTUyMzEyMTk3OCwianRpIjoiZWJPR05uOWdiMVVmSmJLZUVtYkl2dyJ9.iB2Gk3bwKszmkTHb3zh-F2Lhfq7fOzwUIsV0pofnozg","pagesPlatformApplications":{}};
-    var publicModel = {"domain":"wixsite.com","externalBaseUrl":"https:\/\/amilp0.wixsite.com\/mysite","unicodeExternalBaseUrl":"https:\/\/amilp0.wixsite.com\/mysite","pageList":{"pages":[{"pageId":"mua1n","title":"Home","pageUriSEO":"home","pageJsonFileName":"ca1892_6f2a1600473f642c3b5b6538aecaf4e6_1.json"}],"mainPageId":"mua1n","masterPageJsonFileName":"ca1892_8cf69d750089c53bf7e4dec738b34d86_1.json","topology":[{"baseUrl":"https:\/\/static.wixstatic.com\/","parts":"sites\/{filename}.z?v=3"},{"baseUrl":"https:\/\/staticorigin.wixstatic.com\/","parts":"sites\/{filename}.z?v=3"},{"baseUrl":"https:\/\/fallback.wix.com\/","parts":"wix-html-editor-pages-webapp\/page\/{filename}"}]},"timeSincePublish":174029,"favicon":"","deviceInfo":{"deviceType":"Desktop","browserType":"Firefox","browserVersion":59},"siteRevision":1,"sessionInfo":{"hs":778948723,"svSession":"a2f93d730a6bc442c66d9f15be3562bd2eb40e703fe01cad66ce1c9ce64fe621c0b56521853f8c8242f14baaf5f852f71e60994d53964e647acf431e4f798bcdcc614b72c484166eed436997243cd02eca960723a91756c4373d2ae73f868b73","ctToken":"R1lkOGpjZkRtWVpydGt6Sy1ta1pvdVg4QVVDRlJ2ODNheTVOLS16eHJoWXx7InVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChYMTE7IFVidW50dTsgTGludXggeDg2XzY0OyBydjo1OS4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzU5LjAiLCJ2YWxpZFRocm91Z2giOjE1MjM3MjY3Nzg2NjB9","isAnonymous":false},"metaSiteFlags":[],"siteMembersProtectedPages":[],"indexable":true,"hasBlogAmp":false,"renderTime":1523121978661};
-
-
-    var googleAnalytics = "UA-2117194-61"
-    ;
-
-    var ipAnonymization = false;
-
-    var googleRemarketing = "";
-    var googleTagManager = "";
-    var facebookRemarketing = "";
-    var yandexMetrika = "";
-
-</script>
-
-
-    <link rel="preload" as="fetch" href="https://static.wixstatic.com/sites/ca1892_8cf69d750089c53bf7e4dec738b34d86_1.json.z?v=3" crossorigin/>
-<link rel="preload" as="fetch" href="https://static.wixstatic.com/sites/ca1892_6f2a1600473f642c3b5b6538aecaf4e6_1.json.z?v=3" crossorigin/>
-
-            <meta name="fragment" content="!"/>
-    
-    <!-- DATA -->
-<script type="text/javascript">
-    var adData = {};
-    var mobileAdData = {};
-    var usersDomain = "https://users.wix.com/wix-users";
-        </script>
-                <style id="viewerMainStyle">
-    a,abbr,acronym,address,applet,b,big,blockquote,body,button,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,footer,form,h1,h2,h3,h4,h5,h6,header,html,i,iframe,img,ins,kbd,label,legend,li,nav,object,ol,p,pre,q,s,samp,section,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,title,tr,tt,u,ul,var{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:0 0}body{font-size:10px;font-family:Arial,Helvetica,sans-serif}input,select,textarea{font-family:Helvetica,Arial,sans-serif;box-sizing:border-box}ol,ul{list-style:none}blockquote,q{quotes:none}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}a{cursor:pointer;text-decoration:none}body,html{height:100%}body{overflow-x:auto;overflow-y:scroll}.testStyles{overflow-y:hidden}.reset-button{background:0 0;border:0;outline:0;color:inherit;font:inherit;line-height:normal;overflow:visible;padding:0;-webkit-appearance:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}:focus{outline:0}.wixSiteProperties{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow:hidden}.SITE_ROOT{min-height:100%;position:relative;margin:0 auto}.POPUPS_ROOT{left:0;top:0;width:100vw;height:100%;overflow-x:auto;overflow-y:scroll;position:fixed;z-index:99999}.POPUPS_ROOT.mobile{z-index:1005}.POPUPS_WRAPPER{position:relative;overflow:hidden}.POPUPS_WRAPPER>div{margin:0 auto}.auto-generated-link{color:inherit}.warmup .hidden-on-warmup{visibility:hidden}body:not([data-js-loaded]) [data-hide-prejs]{visibility:hidden}html.device-phone body{overflow-y:auto}html.device-mobile-optimized.device-android{margin-bottom:1px}html.device-mobile-optimized.blockSiteScrolling>body{position:fixed;width:100%}html.device-mobile-optimized.media-zoom-mode>body{touch-action:manipulation}html.device-mobile-optimized.media-zoom-mode>body>#SITE_CONTAINER{height:100%;overflow:hidden}html.device-mobile-optimized.media-zoom-mode>body>#SITE_CONTAINER>.noop{height:100%}html.device-mobile-optimized.media-zoom-mode>body>#SITE_CONTAINER>.noop>.siteAspectsContainer{height:100%;z-index:1005}.siteAspectsContainer{position:absolute;top:0;margin:0 auto;left:0;right:0}body.device-mobile-optimized{overflow-x:hidden;overflow-y:scroll}body.device-mobile-optimized.qa-mode{overflow-y:auto}body.device-mobile-optimized #SITE_CONTAINER{width:320px;overflow-x:visible;margin:0 auto;position:relative}body.device-mobile-optimized>*{max-width:100%!important}body.device-mobile-optimized .SITE_ROOT{overflow-x:hidden;overflow-y:hidden}body.device-mobile-non-optimized #SITE_CONTAINER>:not(.mobile-non-optimized-overflow) .SITE_ROOT{overflow-x:hidden;overflow-y:auto}body.device-mobile-non-optimized.fullScreenMode{background-color:#5f6360}body.device-mobile-non-optimized.fullScreenMode #MOBILE_ACTIONS_MENU,body.device-mobile-non-optimized.fullScreenMode #SITE_BACKGROUND,body.device-mobile-non-optimized.fullScreenMode .SITE_ROOT{visibility:hidden}body.fullScreenMode{overflow-x:hidden!important;overflow-y:hidden!important}body.fullScreenMode.device-mobile-optimized #TINY_MENU{opacity:0;pointer-events:none}body.fullScreenMode-scrollable.device-mobile-optimized{overflow-x:hidden!important;overflow-y:auto!important}body.fullScreenMode-scrollable.device-mobile-optimized #masterPage,body.fullScreenMode-scrollable.device-mobile-optimized .SITE_ROOT{overflow-x:hidden!important;overflow-y:hidden!important}body.fullScreenMode-scrollable.device-mobile-optimized #SITE_BACKGROUND,body.fullScreenMode-scrollable.device-mobile-optimized #masterPage{height:auto!important}.fullScreenOverlay{z-index:1005;position:fixed;left:0;top:-60px;right:0;bottom:0;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;overflow-y:hidden}.fullScreenOverlay>.fullScreenOverlayContent{margin:0 auto;position:absolute;right:0;top:60px;left:0;bottom:0;overflow:hidden;-webkit-transform:translateZ(0);transform:translateZ(0)}.mobile-actions-menu-wrapper{z-index:1000}body[contenteditable]{overflow-x:auto;overflow-y:auto}.bold{font-weight:700}.italic{font-style:italic}.underline{text-decoration:underline}.lineThrough{text-decoration:line-through}.singleLineText{white-space:nowrap;text-overflow:ellipsis}.alignLeft{text-align:left}.alignCenter{text-align:center}.alignRight{text-align:right}.alignJustify{text-align:justify}ol.font_100,ul.font_100{color:#080808;font-family:'Arial, Helvetica, sans-serif',serif;font-size:10px;font-style:normal;font-variant:normal;font-weight:400;margin:0;text-decoration:none;line-height:normal;letter-spacing:normal}ol.font_100 li,ul.font_100 li{margin-bottom:12px}letter{position:relative;display:inline-block}word{display:inline-block;white-space:nowrap}letter.space,word.space{display:inline}ol.wix-list-text-align,ul.wix-list-text-align{list-style-position:inside}ol.wix-list-text-align h1,ol.wix-list-text-align h2,ol.wix-list-text-align h3,ol.wix-list-text-align h4,ol.wix-list-text-align h5,ol.wix-list-text-align h6,ol.wix-list-text-align p,ul.wix-list-text-align h1,ul.wix-list-text-align h2,ul.wix-list-text-align h3,ul.wix-list-text-align h4,ul.wix-list-text-align h5,ul.wix-list-text-align h6,ul.wix-list-text-align p{display:inline}.wixapps-less-spacers-align.ltr{text-align:left}.wixapps-less-spacers-align.center{text-align:center}.wixapps-less-spacers-align.rtl{text-align:right}.wixapps-less-spacers-align>a,.wixapps-less-spacers-align>div{display:inline-block!important}.flex_display{display:-webkit-box;display:-webkit-flex;display:flex}.flex_vbox{box-sizing:border-box;padding-top:.01em;padding-bottom:.01em}a.wixAppsLink img{cursor:pointer}.singleLine{white-space:nowrap;display:block;overflow:hidden;text-overflow:ellipsis;word-wrap:normal}[data-z-counter]{z-index:0}[data-z-counter="0"]{z-index:auto}.circle-preloader{-webkit-animation:semi-rotate 1s 1ms linear infinite;animation:semi-rotate 1s 1ms linear infinite;height:30px;left:50%;margin-left:-15px;margin-top:-15px;overflow:hidden;position:absolute;top:50%;-webkit-transform-origin:100% 50%;transform-origin:100% 50%;width:15px}.circle-preloader::before{content:'';top:0;left:0;right:-100%;bottom:0;border:3px solid currentColor;border-color:currentColor transparent transparent currentColor;border-radius:50%;position:absolute;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:inner-rotate .5s 1ms linear infinite alternate;animation:inner-rotate .5s 1ms linear infinite alternate;color:#7fccf7}.circle-preloader::after{content:'';top:0;left:0;right:-100%;bottom:0;border:3px solid currentColor;border-color:currentColor transparent transparent currentColor;border-radius:50%;position:absolute;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:inner-rotate .5s 1ms linear infinite alternate;animation:inner-rotate .5s 1ms linear infinite alternate;color:#3899ec;opacity:0}.circle-preloader.white::before{color:#f0f0f0}.circle-preloader.white::after{color:#dcdcdc}@-webkit-keyframes inner-rotate{to{opacity:1;-webkit-transform:rotate(115deg);transform:rotate(115deg)}}@keyframes inner-rotate{to{opacity:1;-webkit-transform:rotate(115deg);transform:rotate(115deg)}}@-webkit-keyframes semi-rotate{from{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-transform:rotate(180deg);transform:rotate(180deg)}45%{-webkit-transform:rotate(198deg);transform:rotate(198deg)}55%{-webkit-transform:rotate(234deg);transform:rotate(234deg)}to{-webkit-transform:rotate(540deg);transform:rotate(540deg)}}@keyframes semi-rotate{from{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-transform:rotate(180deg);transform:rotate(180deg)}45%{-webkit-transform:rotate(198deg);transform:rotate(198deg)}55%{-webkit-transform:rotate(234deg);transform:rotate(234deg)}to{-webkit-transform:rotate(540deg);transform:rotate(540deg)}}.hidden-comp-ghost-mode{opacity:.5}.collapsed-comp-mode::after{position:absolute;top:0;bottom:0;left:0;right:0;content:'';background:-webkit-repeating-linear-gradient(135deg,transparent,transparent 49%,#2b5672 40%,#2b5672 40%,transparent 51%);background:repeating-linear-gradient(-45deg,transparent,transparent 49%,#2b5672 40%,#2b5672 40%,transparent 51%);background-size:6px 6px;background-repeat:repeat}.g-transparent-a:link,.g-transparent-a:visited{border-color:transparent}.transitioning-comp *{transition:inherit!important;-webkit-transition:inherit!important}.selectionSharerContainer{position:absolute;background-color:#fff;box-shadow:0 4px 10px 0 rgba(57,86,113,.24);width:142px;height:45px;border-radius:100px;text-align:center}.selectionSharerContainer:after{content:"";position:absolute;bottom:-10px;left:42%;border-width:10px 10px 0;border-style:solid;border-color:#fff transparent;display:block;width:0}.selectionSharerContainer .selectionSharerOption{display:inline-block;cursor:pointer;vertical-align:top;padding:13px 11px 11px 13px;margin:1px;z-index:-1}.selectionSharerContainer .selectionSharerVerticalSeparator{margin-top:9px;margin-bottom:18px;background-color:#eaf7ff;height:26px;width:1px;display:inline-block}.visual-focus-on .focus-ring:not(.has-custom-focus):focus{box-shadow:inset 0 0 0 1px rgba(255,255,255,.9),0 0 1px 2px #3899ec!important}
-</style>
-</head>
-<body>
-        <div id="SITE_CONTAINER"></div>
-
-    
-    
-    
-    
-    
-    
-    
-
-    </body>
+		<script src="js/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/jquery.easeScroll.js"></script>
+		<script src="sweetalert/dist/sweetalert.min.js"></script>
+		<script src="js/stisla.js"></script>
+	</body>
 </html>
